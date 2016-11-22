@@ -18,18 +18,18 @@ class AlbumType extends AbstractType
                 ->add('artiste')
                 ->add('genre', ChoiceType::class, array(
         'choices'  => array(
-            'Hip-Hop' => true,
-            'Soul' => true,
-            'Rock' => true,
+            'Hip-Hop' => 'Hip-Hop',
+            'Soul' => 'Soul',
+            'Rock' => 'Rock',
         ),
         // *this line is important*
         'choices_as_values' => true,
     ))
         ->add('support', ChoiceType::class, array(
             'choices'  => array(
-                'Vinyl' => true,
-                'CD' => true,
-                'Cassette' => true,
+                'Vinyl' => 'Vinyl',
+                'CD' => 'CD',
+                'Cassette' => 'Cassette',
             ),
             // *this line is important*
             'choices_as_values' => true,
