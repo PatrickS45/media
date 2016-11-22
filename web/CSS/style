@@ -1,0 +1,7 @@
+h1{
+    color : red;
+}
+
+th {
+    padding-right: 50px;
+}
